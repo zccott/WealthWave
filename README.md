@@ -130,5 +130,5 @@ wealthwave/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/wealthwave.git
+git clone https://github.com/zccott/wealthwave.git
 cd wealthwave
