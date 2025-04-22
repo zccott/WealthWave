@@ -39,7 +39,60 @@
 
 ## 📁 Folder Structure
 
-wealthwave/ ├── public/ │ └── assets/ │ ├── images/ │ └── fonts/ ├── src/ │ ├── assets/ │ │ ├── icons/ │ │ └── images/ │ ├── components/ │ │ ├── common/ │ │ │ ├── Button.tsx │ │ │ └── Input.tsx │ │ ├── charts/ │ │ │ └── PieChart.tsx │ │ └── layout/ │ │ ├── BottomBar.tsx │ │ └── ThemeSwitch.tsx │ ├── features/ │ │ ├── home/ │ │ │ ├── components/ │ │ │ │ └── BalanceOverview.tsx │ │ │ ├── homeSlice.ts │ │ │ └── HomePage.tsx │ │ └── theme/ │ │ ├── themeSlice.ts │ │ └── ThemeProvider.tsx │ ├── hooks/ │ │ └── useTheme.ts │ ├── pages/ │ │ ├── Home.tsx │ │ ├── Categories.tsx │ │ ├── Analytics.tsx │ │ └── Transactions.tsx │ ├── redux/ │ │ ├── store.ts │ │ └── rootReducer.ts │ ├── styles/ │ │ ├── global.css │ │ └── themes/ │ │ ├── light.css │ │ └── dark.css │ ├── utils/ │ │ └── formatCurrency.ts │ ├── App.tsx │ ├── main.tsx │ └── vite-env.d.ts ├── .eslintrc.js ├── .prettierrc ├── tsconfig.json ├── vite.config.ts ├── package.json └── README.md
+wealthwave/
+├── public/
+│   └── assets/
+│       ├── images/
+│       └── fonts/
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   └── images/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   └── Input.tsx
+│   │   ├── charts/
+│   │   │   └── PieChart.tsx
+│   │   └── layout/
+│   │       ├── BottomBar.tsx
+│   │       └── ThemeSwitch.tsx
+│   ├── features/
+│   │   ├── home/
+│   │   │   ├── components/
+│   │   │   │   └── BalanceOverview.tsx
+│   │   │   ├── homeSlice.ts
+│   │   │   └── HomePage.tsx
+│   │   └── theme/
+│   │       ├── themeSlice.ts
+│   │       └── ThemeProvider.tsx
+│   ├── hooks/
+│   │   └── useTheme.ts
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── Categories.tsx
+│   │   ├── Analytics.tsx
+│   │   └── Transactions.tsx
+│   ├── redux/
+│   │   ├── store.ts
+│   │   └── rootReducer.ts
+│   ├── styles/
+│   │   ├── global.css
+│   │   └── themes/
+│   │       ├── light.css
+│   │       └── dark.css
+│   ├── utils/
+│   │   └── formatCurrency.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .eslintrc.js
+├── .prettierrc
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── README.md
+
 
 
 ---
