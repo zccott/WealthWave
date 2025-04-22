@@ -4,6 +4,7 @@
 
 ![WealthWave Logo](<!-- Update with actual logo path -->)
 
+
 ---
 
 ## 🚀 Features
