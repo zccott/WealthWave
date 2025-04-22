@@ -1,4 +1,18 @@
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #007bff;
+  --sidebar-bg: #f0f0f0;
+}
+
+[data-theme='dark'] {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --primary-color: #66b0ff;
+  --sidebar-bg: #2c2c2c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,3 +22,11 @@
   border: none;
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
